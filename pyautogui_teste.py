@@ -1,6 +1,5 @@
 import pyautogui
 
-botao_atividade = pyautogui.locateOnScreen('3.png')
-x, y, l, a = botao_atividade
+botao_atividade = pyautogui.locateOnScreen('1.png')
+
 pyautogui.click(botao_atividade)
-print(x, y, l, a)
